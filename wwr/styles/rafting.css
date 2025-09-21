@@ -135,6 +135,10 @@ footer p {
     margin: 0;
 }
 
+footer .socialmedia a {
+    text-decoration: none;
+}
+
 footer .socialmedia {
     display: flex;
     gap: 12px;
