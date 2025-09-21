@@ -1,0 +1,128 @@
+:root{
+    --primary-color: #036;
+    --accent1-color: #fc0; 
+    --accent2-color: #ffffff;
+    --heading-font: "Trebuchet Ms";
+    --body-font: arial; 
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--body-font);
+    color: var(--primary-color);
+    background-color: var(--accent2-color);
+    line-height: 1.6;
+}
+
+header, main, footer {
+    width: 840px;
+    margin: 0 auto;
+}
+
+header {
+    text-align: left;
+    padding: 16px;
+    display: block;
+    
+}
+
+header img {
+    margin: 0 auto;
+    width: 140px;
+;
+}
+
+header nav {
+    margin-top: 12px;
+}
+
+header nav a {
+    display: block;
+    margin: 0 px;
+    padding: 0;
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+
+
+h1, h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+main {
+    position: relative;
+}
+
+main img {
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: auto;
+    position: absolute;
+}
+
+h1 {
+    position: absolute;
+    top: 20px;
+    left: 10%;
+    background: rgba (0,0,0,0.6);
+    color: black;
+    padding: 1px;
+    border-radius: 4px;
+    font-size: 2rem;
+    text-align: center;
+}
+
+article {
+    position: absolute;
+    left: 10px;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    float: left;
+    margin: 0 12px 12px 0;
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
+
+}
+
+article img {
+    float: right;
+    width: 120px;
+    padding: 1px;
+    border-radius: 0;
+
+}
+
+section {
+    clear: both;
+    margin: 16px;
+    padding: 8px;
+    display:flex;
+    position: absolute;
+    bottom: 0;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background: var(--primary-color);
+    color: var(--accent2-color);
+}
+
+footer p {
+    text-decoration: none;
+    margin: 0 8px;
+}
+
+footer img { 
+    width: 30px;
+    height: 30px;
+}
