@@ -123,19 +123,25 @@ section p {
     margin-right: 0;
 }
 footer {
-    text-align: center;
-    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 20px;
     background: var(--primary-color);
     color: var(--accent2-color);
 }
 
 footer p {
-    text-decoration: none;
-    margin: 0 8px;
+    margin: 0;
 }
 
-footer img { 
-    width: 30px;
-    height: 30px;
+footer .socialmedia {
+    display: flex;
+    gap: 12px;
+}
+
+footer img {
+    width: 16px;
+    height: 16px;
 }
 
