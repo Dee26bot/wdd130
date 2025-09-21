@@ -27,6 +27,8 @@ h1 {
 
 main {
     max-width: 640px;
+    position: relative;
+    text-align: center;
 }
 
 

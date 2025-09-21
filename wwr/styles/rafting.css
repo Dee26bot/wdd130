@@ -1,0 +1,111 @@
+:root{
+    --primary-color: #036;
+    --accent1-color: #fc0; 
+    --accent2-color: #ffffff;
+    --heading-font: "Trebuchet Ms";
+    --body-font: arial;
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--body-font);
+    color: var(--primary-color);
+    background-color: var(--accent2-color);
+    line-height: 1.6;
+}
+
+header, main, footer {
+    width: 840px;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+nav, p, section, article {
+    margin: 16px;
+    padding: 8px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav a {
+    margin: 10px 0;
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: bold;
+    display: block;
+}
+
+header nav a :hover {
+    color: var(--accent1-color);
+}
+
+.main {
+    position: relative;
+}
+
+.main img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.main h1 {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    opacity: 0.7;
+    background-color: var(--accent1-color);
+    color: #fff;
+}
+
+
+.main article {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 16px;
+    border-radius: 5px;
+}
+
+.main article img {
+    float: right;
+    width: 125px;
+    margin-left: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,.2);
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: var(--primary-color);
+    color: var(--accent2-color);
+    margin-top: 20px;
+}
+
+.socialmedia a {
+    text-decoration: none;
+    margin: 0 8px;
+}
+
+.socialmedia img { 
+    width: 32px;
+    height: 32px;
+}
