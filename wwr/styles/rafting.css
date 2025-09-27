@@ -72,29 +72,32 @@ nav a {
 
 }
 
-.hero {
-    text-align: center;
-    margin: 2rem auto;
+.hero,
+.history-content,
+.adventure {
     max-width: 1440px;
-}
-.hero h1 {
-    margin-bottom: 1.5rem;
-    font-weight: bold;
+    margin: 0 auto 2rem;
+    border: 2px navy;
+    padding: 1rem;
 }
 
-.hero-content {
+main h1 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.hero {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 2rem;
+    margin-bottom: 2rem;
     border: 2px solid navy;
     padding: 1rem;
-    border-radius: 8px;
     background: var(--sub-heading);
 }
 
 .hero article {
-    flex: 1;
+    max-width: 1440px;
     text-align: justify;
     font-size: 22px;
 }
@@ -102,6 +105,7 @@ nav a {
 .hero img {
     width: 300px;
     height: auto;
+    margin-left: 20px;
     border-radius: 8px;   
 }
 
