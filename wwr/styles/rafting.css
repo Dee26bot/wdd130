@@ -200,15 +200,20 @@ footer .socialmedia a img {
 .contact-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    max-width: 900px;
+    max-width: 1200px;
     margin: 0 auto;
     gap: 1.5rem;
     align-items: start;
 }
 
+.map {
+    flex: 1;
+}
+
 .map iframe {
     width: 100%;
     height: 100%;
+    min-height: 420px;
     border: 1px solid #aaa;
     border-radius: 6px;
 }
@@ -231,21 +236,23 @@ footer .socialmedia a img {
     font-weight: bold;
 }
 
-.radio-group {
+.radio-group.vertical {
     display: flex;
-    gap: 1.5rem;
-    align-items: center;
-    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 6px;
+    align-items: flex-start;
 }
 
-.radio-group label {
+.radio-group.vertical label {
     font-weight: normal;
     display: flex;
     align-items: center;
-    gap: 0.3rem;
+    gap: 5px;
+
 }
 
 .contact-form label {
+    text-align: left;
     font-weight: 600;
 }
 
@@ -256,10 +263,7 @@ footer .socialmedia a img {
     padding: 0.5rem;
     border: 1px solid #aaa;
     border-radius: 4px;
-    font-size: large;
 }
-
-
 
 .checkbox-row {
     grid-template-columns: 1fr;
@@ -285,7 +289,7 @@ button:hover {
 
 .team {
     text-align: center;
-    margin-top: 3rem;
+    margin-top: 0;
     padding: 1rem;
     background-color: #f9f7fc;
     border-top: 1px solid #ccc;
@@ -310,6 +314,18 @@ button:hover {
     border: 1px solid #ccc;
 }
 
+.form-row.block {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.form-row.block label {
+    text-align: left;
+    margin-bottom: 5px;
+    width: auto;
+}
 
 {
 /*:root{
