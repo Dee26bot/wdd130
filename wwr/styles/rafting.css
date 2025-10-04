@@ -270,7 +270,7 @@ footer .socialmedia a img {
 }
 .contact-form input [type="radio"],
 .contact-form input [type="checkbox"] {
-    transform: scale(1.2rem);
+    transform: scale(1.2);
     margin-right: 0.3rem;
 }
 
@@ -677,6 +677,4 @@ footer .socialmedia {
 footer img {
     width: 16px;
     height: 16px;
-}
-
-*/
+}*/
